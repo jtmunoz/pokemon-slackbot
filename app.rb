@@ -10,3 +10,8 @@ end
 get '/gateway' do
   erb :gateway
 end
+
+
+post '/gateway' do
+
+end

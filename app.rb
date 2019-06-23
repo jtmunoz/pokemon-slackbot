@@ -4,14 +4,14 @@ require 'json'
 require 'net/http'
 
 get '/' do
-  redirect '/gateway' 
+  redirect '/pokedex' 
 end
 
-get '/gateway' do
-  erb :gateway
+get '/pokedex' do
+  erb :pokedex
 end
 
 
-post '/gateway' do
-
+post '/pokedex' do
+	
 end

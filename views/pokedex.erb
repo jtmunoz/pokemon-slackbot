@@ -1,14 +1,17 @@
 <form action="/pokedex" method="post"> 
 	<fieldset> 
-		<label for="Trigger">Trigger Word</label> 
-		<input type="text" name="trigger_word"> 
+		<label for="Name">Name:</label> 
+		<input type="text" name="pokemon[name]"> 
+		<input type="submit" value="send" class=""> 
+	</fieldset>
+</form>
 
-		<label for="action">Action</label> 
-		<input type="text" name="text"> 
 
-		<label for="query">Query</label> 
-		<input type="text" name="query"> 
 
-		<input type="submit" value="Send" class="button"> 
+<form action="/pokedex" method="post"> 
+	<fieldset> 
+		<label for="Type">Type:</label> 
+		<input type="text" name="pokemon[type]"> 
+		<input type="submit" value="send" class=""> 
 	</fieldset>
 </form>

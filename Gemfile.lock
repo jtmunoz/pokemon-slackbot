@@ -10,6 +10,7 @@ GEM
     mime-types-data (3.2019.0331)
     multi_xml (0.6.0)
     mustermann (1.0.3)
+    poke-api-v2 (0.1.0)
     rack (2.0.7)
     rack-protection (2.0.5)
       rack
@@ -28,6 +29,7 @@ PLATFORMS
 DEPENDENCIES
   dotenv
   httparty
+  poke-api-v2
   shotgun
   sinatra
 

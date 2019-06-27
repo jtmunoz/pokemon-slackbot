@@ -2,7 +2,7 @@ require 'sinatra'
 require 'httparty'
 require 'json'
 require 'net/http'
-require 'poke-api-v2'
+
 
 get '/' do
  	redirect '/pokedex' 
